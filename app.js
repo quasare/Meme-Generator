@@ -7,7 +7,7 @@ const results = document.querySelector('#results');
 form.addEventListener(`submit`, (e) => {
     e.preventDefault();
     const newMeme = makeMeme(urlInput.value, topInput.value, bottomInput.value)
-    results.appendChild(newMeme)
+    results.prepend(newMeme)
     urlInput.value = '';
     topInput.value = '';
     bottomInput.value = '';

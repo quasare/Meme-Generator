@@ -18,23 +18,20 @@ body {
     color: white;
     font-size: 5rem;
     text-shadow: 2px 2px 3px rgba(150, 150, 150, 1);
-    width: 400px;
-    height: 400px;
-    left: 37%;
     top: 50%;
     margin-bottom: 8rem;
 
 }
 
 img {
-    max-width: 100%;
+    width: 33vw;
     max-height: 100%;
 }
 
 .top-text {
     position: absolute;
     top: 1%;
-    left: 25%;
+    left: 40%;
     font-size: 5vw;
     text-align: center;
     margin: 0;
@@ -44,9 +41,9 @@ img {
     position: absolute;
     text-align: center;
     bottom: 1%;
-    left: 25%;
+    left: 40%;
     font-size: 5vw;
-    margin: 1rem;
+    margin-bottom: 1rem;
 }
 
 #submitBtn {
